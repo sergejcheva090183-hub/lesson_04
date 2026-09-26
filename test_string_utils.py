@@ -3,7 +3,6 @@ from string_utils import StringUtils
 
 @pytest.fixture
 def utils():
-    """Фикстура для создания экземпляра класса"""
     return StringUtils()
 
 @pytest.mark.parametrize(
